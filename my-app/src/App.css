@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.main-div {
+  width: 100%;
+  /* max-width: 320px; */
+  height: auto;
+}
+
+span.carousel-control-prev-icon {
+  background-image: url('./images/Left.svg');
+  position: relative;
+  right: 60px;
+}
+
+span.carousel-control-next-icon {
+  position: relative;
+  background-image: url('./images/Right.svg');
+  left: 60px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card_main_div {
+  width: 18rem !important;
+  border-radius: 16px !important;
+  box-shadow: 6px 8px 12px 0px rgba(0,135,219,0.24) !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 40px !important;
+  background-color: #bbb !important;
+}
+
+.carousel-indicators .active {
+  background-color: #0d6efd !important;
+}
